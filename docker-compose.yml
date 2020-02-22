@@ -1,0 +1,46 @@
+version: '2'
+services:  
+
+  red5_1:
+    container_name: red5_1
+    image: red5
+    build: ./
+    ports:
+      - "5080:5080"
+    expose:
+      - "5080"
+    volumes:
+    - ./red5_cluster/data_1:/data/db
+
+  red5_2:
+    container_name: red5_2
+    image: red5
+    build: ./
+    ports:
+      - "5081:5080"
+    expose:
+      - "5080"
+    volumes:
+    - ./red5_cluster/data_2:/data/db
+
+
+  red5_3:
+    container_name: red5_3
+    image: red5
+    build: ./
+    ports:
+      - "5082:5080"
+    expose:
+      - "5080"
+    volumes:
+    - ./red5_cluster/data_3:/data/db
+
+
+
+
+  haproxy_img:
+    build: ./haproxy
+    ports:
+      - "80:80"
+    expose:
+      - "80"
