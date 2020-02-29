@@ -1,106 +1,210 @@
-2020-02-26 15:10:54,070 [main] INFO  org.red5.server.Launcher - Red5 Server 1.2.2 (https://github.com/Red5)
-2020-02-26 15:10:54,073 [main] INFO  org.red5.server.Launcher - 1
-2020-02-26 15:10:54,093 [main] INFO  org.red5.server.Launcher - 2
-2020-02-26 15:10:54,093 [main] INFO  org.red5.server.Launcher - 3
-2020-02-26 15:10:54,093 [main] INFO  org.red5.server.Launcher - 4
-2020-02-26 15:10:54,093 [main] INFO  org.red5.server.Launcher - 5
-2020-02-26 15:10:54,389 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@3bbc39f8, started on Wed Feb 26 15:10:54 ICT 2020
-2020-02-26 15:10:54,421 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
-2020-02-26 15:10:54,607 [main] WARN  n.s.e.config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/home/dung/Desktop/project/test/red5-server/lib/ehcache-2.10.6.jar!/ehcache-failsafe.xml
-2020-02-26 15:10:55,064 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@3bbc39f8, started on Wed Feb 26 15:10:54 ICT 2020
-2020-02-26 15:10:55,064 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
-2020-02-26 15:10:55,139 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP will be bound to [127.0.0.1:1935]
-2020-02-26 15:10:55,139 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - start ++++++++++++++++++++++++++++++++++++++++++++++++ 1935
-2020-02-26 15:10:55,139 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+2020-02-28 21:18:42,285 [main] INFO  org.red5.server.Launcher - Red5 Server 1.2.2 (https://github.com/Red5)
+2020-02-28 21:18:42,287 [main] INFO  org.red5.server.Launcher - 1
+2020-02-28 21:18:42,332 [main] INFO  org.red5.server.Launcher - 2
+2020-02-28 21:18:42,332 [main] INFO  org.red5.server.Launcher - 3
+2020-02-28 21:18:42,332 [main] INFO  org.red5.server.Launcher - 4
+2020-02-28 21:18:42,332 [main] INFO  org.red5.server.Launcher - 5
+2020-02-28 21:18:42,688 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@3bbc39f8, started on Fri Feb 28 21:18:42 ICT 2020
+2020-02-28 21:18:42,715 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2020-02-28 21:18:42,943 [main] WARN  n.s.e.config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/home/dung/Desktop/project/test/red5-server/lib/ehcache-2.10.6.jar!/ehcache-failsafe.xml
+2020-02-28 21:18:43,395 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@3bbc39f8, started on Fri Feb 28 21:18:42 ICT 2020
+2020-02-28 21:18:43,395 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2020-02-28 21:18:43,468 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP will be bound to [0.0.0.0:1935]
+2020-02-28 21:18:43,469 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - start ++++++++++++++++++++++++++++++++++++++++++++++++ 1935
+2020-02-28 21:18:43,469 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
 Acceptor style: default I/O threads: 8
 TCP no-delay: true keep-alive: false
-2020-02-26 15:10:55,156 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Traffic class modification is disabled
-2020-02-26 15:10:55,156 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 0
-2020-02-26 15:10:55,192 [main] INFO  o.r.server.net.rtmpt.RTMPTServlet - setHandler
-2020-02-26 15:10:55,195 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
-2020-02-26 15:10:55,209 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => /home/dung/Desktop/project/test/red5-server/webapps/red5-default.xml
-2020-02-26 15:10:55,273 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
-2020-02-26 15:10:55,277 [main] INFO  o.r.net.websocket.WebSocketPlugin - Setting server scope listener
-2020-02-26 15:10:55,278 [main] INFO  o.r.net.websocket.WebSocketPlugin - Got global scope: default
-2020-02-26 15:10:55,279 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: org.red5.net.websocket.WebSocketPlugin
-2020-02-26 15:10:55,281 [main] INFO  org.red5.server.tomcat.WarDeployer - War deployer service created
-2020-02-26 15:10:55,283 [main] INFO  org.red5.server.tomcat.WarDeployer - Starting WarDeployer
-2020-02-26 15:10:55,290 [main] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars without app start
-2020-02-26 15:10:55,362 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading Tomcat
-2020-02-26 15:10:55,363 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: /home/dung/Desktop/project/test/red5-server
-2020-02-26 15:10:55,363 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: /home/dung/Desktop/project/test/red5-server/conf
-2020-02-26 15:10:55,380 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: /home/dung/Desktop/project/test/red5-server/webapps
-2020-02-26 15:10:55,443 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
-2020-02-26 15:10:55,647 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/dung/Desktop/project/test/red5-server/lib/native]
-2020-02-26 15:10:55,656 [main] INFO  o.a.c.http11.Http11Nio2Protocol - Initializing ProtocolHandler ["http-nio2-0.0.0.0-5080"]
-2020-02-26 15:10:55,729 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2020-02-26 15:10:55,733 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.45
-2020-02-26 15:10:55,862 [0.0.0.0-startStop-1] INFO  o.a.catalina.startup.ContextConfig - No global web.xml found
-2020-02-26 15:10:55,939 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/] - No Spring WebApplicationInitializer types detected on classpath
-2020-02-26 15:10:56,007 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/live] - No Spring WebApplicationInitializer types detected on classpath
-2020-02-26 15:10:56,094 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/chat] - No Spring WebApplicationInitializer types detected on classpath
-2020-02-26 15:10:56,097 [0.0.0.0-startStop-1] INFO  o.r.net.websocket.WebSocketPlugin - getWsServerContainerInstance: /chat
-2020-02-26 15:10:56,154 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/vod] - No Spring WebApplicationInitializer types detected on classpath
-2020-02-26 15:10:56,169 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/SOSample] - No Spring WebApplicationInitializer types detected on classpath
-2020-02-26 15:10:56,212 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/oflaDemo] - No Spring WebApplicationInitializer types detected on classpath
-2020-02-26 15:10:56,246 [main] INFO  o.a.c.http11.Http11Nio2Protocol - Starting ProtocolHandler ["http-nio2-0.0.0.0-5080"]
-2020-02-26 15:10:56,256 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized:  path: /home/dung/Desktop/project/test/red5-server/webapps/root/
-2020-02-26 15:10:56,258 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /live path: /home/dung/Desktop/project/test/red5-server/webapps/live/
-2020-02-26 15:10:56,258 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /chat path: /home/dung/Desktop/project/test/red5-server/webapps/chat/
-2020-02-26 15:10:56,259 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /vod path: /home/dung/Desktop/project/test/red5-server/webapps/vod/
-2020-02-26 15:10:56,259 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /SOSample path: /home/dung/Desktop/project/test/red5-server/webapps/SOSample/
-2020-02-26 15:10:56,259 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /oflaDemo path: /home/dung/Desktop/project/test/red5-server/webapps/oflaDemo/
-2020-02-26 15:10:56,259 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
-2020-02-26 15:10:56,260 [main] INFO  o.r.server.service.ShutdownServer - JEE server was found: TomcatLoader [serviceEngineName=red5Engine]
-2020-02-26 15:10:56,271 [main] INFO  org.red5.server.Launcher - 6
-2020-02-26 15:10:56,370 [Loader:] INFO  org.red5.server.Context - Setting parent bean factory as core
-2020-02-26 15:10:56,377 [Loader:] INFO  org.red5.server.scope.WebScope - Set server [Server@55d17f91map[[empty]]]
-2020-02-26 15:10:56,379 [Loader:] INFO  org.red5.server.scope.Scope - Scope null name reset to:  disallowed
-2020-02-26 15:10:56,381 [Loader:] INFO  org.red5.server.Server - Add mapping global: default host:  context: null
-2020-02-26 15:10:56,381 [Loader:] INFO  org.red5.server.scope.Scope - Invalid scope name, null is not allowed
-2020-02-26 15:10:56,381 [Loader:] WARN  org.red5.server.scope.Scope - Invalid scope rejected: Scope [name=null, path=/default, type=APPLICATION, autoStart=true, creationTime=1582704656372, depth=1, enabled=true, running=false]
-2020-02-26 15:10:56,413 [Loader:] WARN  org.red5.server.scope.Scope - Scope not added to parent
-2020-02-26 15:10:56,414 [Loader:] INFO  org.red5.server.scope.WebScope - Webscope already registered; remove the 'init-method' from your 'web.scope' bean to prevent this message in the future.
-2020-02-26 15:10:56,453 [Loader:/live] INFO  org.red5.server.Context - Setting parent bean factory as core
-2020-02-26 15:10:56,454 [Loader:/live] INFO  org.red5.server.scope.WebScope - Set server [Server@55d17f91map['/' -> 'default']]
-2020-02-26 15:10:56,456 [Loader:/live] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
-2020-02-26 15:10:56,457 [Loader:/live] INFO  o.r.s.adapter.ApplicationAdapter - start
-2020-02-26 15:10:56,471 [pool-1-thread-3] INFO  o.r.net.websocket.WebSocketPlugin - Creating WebSocketScopeManager for org.red5.server.adapter.ApplicationAdapter@57d69702
-2020-02-26 15:10:56,471 [pool-1-thread-3] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.server.adapter.ApplicationAdapter@57d69702
-2020-02-26 15:10:56,472 [pool-1-thread-3] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=live, path=/default, type=APPLICATION, autoStart=true, creationTime=1582704656453, depth=1, enabled=true, running=true]
-2020-02-26 15:10:56,472 [pool-1-thread-3] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/live, listeners=0, connections=0]
-2020-02-26 15:10:56,501 [pool-1-thread-3] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
-2020-02-26 15:10:56,507 [Loader:/chat] INFO  org.red5.server.Context - Setting parent bean factory as core
-2020-02-26 15:10:56,528 [Loader:/chat] INFO  org.red5.server.scope.WebScope - Set server [Server@55d17f91map['/live' -> 'default', '/' -> 'default']]
-2020-02-26 15:10:56,529 [Loader:/chat] INFO  org.red5.server.Server - Add mapping global: default host:  context: chat
-2020-02-26 15:10:56,530 [Loader:/chat] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.demos.chat.Application@ee150af
-2020-02-26 15:10:56,549 [Loader:/chat] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=chat, path=/default, type=APPLICATION, autoStart=true, creationTime=1582704656508, depth=1, enabled=true, running=false]
-2020-02-26 15:10:56,549 [Loader:/chat] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/chat, listeners=1, connections=0]
-2020-02-26 15:10:56,549 [Loader:/chat] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
-2020-02-26 15:10:56,591 [Loader:/vod] INFO  org.red5.server.Context - Setting parent bean factory as core
-2020-02-26 15:10:56,593 [Loader:/vod] INFO  org.red5.server.scope.WebScope - Set server [Server@55d17f91map['/chat' -> 'default', '/live' -> 'default', '/' -> 'default']]
-2020-02-26 15:10:56,594 [Loader:/vod] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
-2020-02-26 15:10:56,594 [Loader:/vod] INFO  o.r.s.adapter.ApplicationAdapter - start
-2020-02-26 15:10:56,604 [pool-1-thread-3] INFO  o.r.net.websocket.WebSocketPlugin - Creating WebSocketScopeManager for org.red5.server.adapter.ApplicationAdapter@7d7b9b12
-2020-02-26 15:10:56,605 [pool-1-thread-3] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.server.adapter.ApplicationAdapter@7d7b9b12
-2020-02-26 15:10:56,605 [pool-1-thread-3] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=vod, path=/default, type=APPLICATION, autoStart=true, creationTime=1582704656592, depth=1, enabled=true, running=true]
-2020-02-26 15:10:56,605 [pool-1-thread-3] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/vod, listeners=0, connections=0]
-2020-02-26 15:10:56,605 [pool-1-thread-3] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
-2020-02-26 15:10:56,622 [Loader:/SOSample] INFO  org.red5.server.Context - Setting parent bean factory as core
-2020-02-26 15:10:56,623 [Loader:/SOSample] INFO  org.red5.server.scope.WebScope - Set server [Server@55d17f91map['/chat' -> 'default', '/live' -> 'default', '/vod' -> 'default', '/' -> 'default']]
-2020-02-26 15:10:56,625 [Loader:/SOSample] INFO  org.red5.server.Server - Add mapping global: default host:  context: SOSample
-2020-02-26 15:10:56,636 [pool-1-thread-5] INFO  o.r.net.websocket.WebSocketPlugin - Creating WebSocketScopeManager for org.red5.server.adapter.MultiThreadedApplicationAdapter@1acb43a7
-2020-02-26 15:10:56,637 [pool-1-thread-5] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.server.adapter.MultiThreadedApplicationAdapter@1acb43a7
-2020-02-26 15:10:56,637 [pool-1-thread-5] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=SOSample, path=/default, type=APPLICATION, autoStart=true, creationTime=1582704656622, depth=1, enabled=true, running=true]
-2020-02-26 15:10:56,638 [pool-1-thread-5] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/SOSample, listeners=0, connections=0]
-2020-02-26 15:10:56,638 [pool-1-thread-5] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
-2020-02-26 15:10:56,651 [Loader:/oflaDemo] INFO  org.red5.server.Context - Setting parent bean factory as core
-2020-02-26 15:10:56,654 [Loader:/oflaDemo] INFO  org.red5.server.scope.WebScope - Set server [Server@55d17f91map['/chat' -> 'default', '/live' -> 'default', '/SOSample' -> 'default', '/vod' -> 'default', '/' -> 'default']]
-2020-02-26 15:10:56,656 [Loader:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host:  context: oflaDemo
-2020-02-26 15:10:56,657 [Loader:/oflaDemo] INFO  o.r.s.adapter.ApplicationAdapter - start
-2020-02-26 15:10:56,679 [pool-1-thread-1] INFO  o.r.net.websocket.WebSocketPlugin - Creating WebSocketScopeManager for org.red5.demos.oflaDemo.Application@4d8b9877
-2020-02-26 15:10:56,680 [pool-1-thread-1] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.demos.oflaDemo.Application@4d8b9877
-2020-02-26 15:10:56,680 [pool-1-thread-1] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1582704656652, depth=1, enabled=true, running=true]
-2020-02-26 15:10:56,680 [pool-1-thread-1] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/oflaDemo, listeners=0, connections=0]
-2020-02-26 15:10:56,681 [pool-1-thread-1] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
-2020-02-26 15:11:55,284 [pool-6-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2020-02-28 21:18:43,489 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Traffic class modification is disabled
+2020-02-28 21:18:43,489 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 0
+2020-02-28 21:18:43,525 [main] INFO  o.r.server.net.rtmpt.RTMPTServlet - setHandler
+2020-02-28 21:18:43,529 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
+2020-02-28 21:18:43,539 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => /home/dung/Desktop/project/test/red5-server/webapps/red5-default.xml
+2020-02-28 21:18:43,615 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
+2020-02-28 21:18:43,628 [main] INFO  o.r.net.websocket.WebSocketPlugin - Setting server scope listener
+2020-02-28 21:18:43,628 [main] INFO  o.r.net.websocket.WebSocketPlugin - Got global scope: default
+2020-02-28 21:18:43,630 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: org.red5.net.websocket.WebSocketPlugin
+2020-02-28 21:18:43,633 [main] INFO  org.red5.server.tomcat.WarDeployer - War deployer service created
+2020-02-28 21:18:43,635 [main] INFO  org.red5.server.tomcat.WarDeployer - Starting WarDeployer
+2020-02-28 21:18:43,644 [main] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars without app start
+2020-02-28 21:18:43,737 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading Tomcat
+2020-02-28 21:18:43,738 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: /home/dung/Desktop/project/test/red5-server
+2020-02-28 21:18:43,738 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: /home/dung/Desktop/project/test/red5-server/conf
+2020-02-28 21:18:43,755 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: /home/dung/Desktop/project/test/red5-server/webapps
+2020-02-28 21:18:43,818 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
+2020-02-28 21:18:44,009 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/dung/Desktop/project/test/red5-server/lib/native]
+2020-02-28 21:18:44,021 [main] INFO  o.a.c.http11.Http11Nio2Protocol - Initializing ProtocolHandler ["http-nio2-0.0.0.0-5080"]
+2020-02-28 21:18:44,141 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-28 21:18:44,141 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.45
+2020-02-28 21:18:44,264 [0.0.0.0-startStop-1] INFO  o.a.catalina.startup.ContextConfig - No global web.xml found
+2020-02-28 21:18:44,356 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/] - No Spring WebApplicationInitializer types detected on classpath
+2020-02-28 21:18:44,406 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/live] - No Spring WebApplicationInitializer types detected on classpath
+2020-02-28 21:18:44,473 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/chat] - No Spring WebApplicationInitializer types detected on classpath
+2020-02-28 21:18:44,475 [0.0.0.0-startStop-1] INFO  o.r.net.websocket.WebSocketPlugin - getWsServerContainerInstance: /chat
+2020-02-28 21:18:44,532 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/vod] - No Spring WebApplicationInitializer types detected on classpath
+2020-02-28 21:18:44,553 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/SOSample] - No Spring WebApplicationInitializer types detected on classpath
+2020-02-28 21:18:44,590 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/oflaDemo] - No Spring WebApplicationInitializer types detected on classpath
+2020-02-28 21:18:44,627 [main] INFO  o.a.c.http11.Http11Nio2Protocol - Starting ProtocolHandler ["http-nio2-0.0.0.0-5080"]
+2020-02-28 21:18:44,636 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized:  path: /home/dung/Desktop/project/test/red5-server/webapps/root/
+2020-02-28 21:18:44,638 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /live path: /home/dung/Desktop/project/test/red5-server/webapps/live/
+2020-02-28 21:18:44,638 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /chat path: /home/dung/Desktop/project/test/red5-server/webapps/chat/
+2020-02-28 21:18:44,638 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /vod path: /home/dung/Desktop/project/test/red5-server/webapps/vod/
+2020-02-28 21:18:44,638 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /SOSample path: /home/dung/Desktop/project/test/red5-server/webapps/SOSample/
+2020-02-28 21:18:44,638 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /oflaDemo path: /home/dung/Desktop/project/test/red5-server/webapps/oflaDemo/
+2020-02-28 21:18:44,638 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
+2020-02-28 21:18:44,639 [main] INFO  o.r.server.service.ShutdownServer - JEE server was found: TomcatLoader [serviceEngineName=red5Engine]
+2020-02-28 21:18:44,648 [main] INFO  org.red5.server.Launcher - 6
+2020-02-28 21:18:44,751 [Loader:] INFO  org.red5.server.Context - Setting parent bean factory as core
+2020-02-28 21:18:44,763 [Loader:] INFO  org.red5.server.scope.WebScope - Set server [Server@7f28f6a8map[[empty]]]
+2020-02-28 21:18:44,765 [Loader:] INFO  org.red5.server.scope.Scope - Scope null name reset to:  disallowed
+2020-02-28 21:18:44,768 [Loader:] INFO  org.red5.server.Server - Add mapping global: default host:  context: null
+2020-02-28 21:18:44,768 [Loader:] INFO  org.red5.server.scope.Scope - Invalid scope name, null is not allowed
+2020-02-28 21:18:44,768 [Loader:] WARN  org.red5.server.scope.Scope - Invalid scope rejected: Scope [name=null, path=/default, type=APPLICATION, autoStart=true, creationTime=1582899524753, depth=1, enabled=true, running=false]
+2020-02-28 21:18:44,794 [Loader:] WARN  org.red5.server.scope.Scope - Scope not added to parent
+2020-02-28 21:18:44,794 [Loader:] INFO  org.red5.server.scope.WebScope - Webscope already registered; remove the 'init-method' from your 'web.scope' bean to prevent this message in the future.
+2020-02-28 21:18:44,833 [Loader:/live] INFO  org.red5.server.Context - Setting parent bean factory as core
+2020-02-28 21:18:44,834 [Loader:/live] INFO  org.red5.server.scope.WebScope - Set server [Server@7f28f6a8map['/' -> 'default']]
+2020-02-28 21:18:44,836 [Loader:/live] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
+2020-02-28 21:18:44,837 [Loader:/live] INFO  o.r.s.adapter.ApplicationAdapter - start
+2020-02-28 21:18:44,849 [pool-1-thread-1] INFO  o.r.net.websocket.WebSocketPlugin - Creating WebSocketScopeManager for org.red5.server.adapter.ApplicationAdapter@2ad65e00
+2020-02-28 21:18:44,849 [pool-1-thread-1] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.server.adapter.ApplicationAdapter@2ad65e00
+2020-02-28 21:18:44,852 [pool-1-thread-1] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=live, path=/default, type=APPLICATION, autoStart=true, creationTime=1582899524834, depth=1, enabled=true, running=true]
+2020-02-28 21:18:44,852 [pool-1-thread-1] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/live, listeners=0, connections=0]
+2020-02-28 21:18:44,871 [pool-1-thread-1] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
+2020-02-28 21:18:44,878 [Loader:/chat] INFO  org.red5.server.Context - Setting parent bean factory as core
+2020-02-28 21:18:44,908 [Loader:/chat] INFO  org.red5.server.scope.WebScope - Set server [Server@7f28f6a8map['/live' -> 'default', '/' -> 'default']]
+2020-02-28 21:18:44,919 [Loader:/chat] INFO  org.red5.server.Server - Add mapping global: default host:  context: chat
+2020-02-28 21:18:44,923 [Loader:/chat] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.demos.chat.Application@4395cdc9
+2020-02-28 21:18:45,012 [Loader:/chat] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=chat, path=/default, type=APPLICATION, autoStart=true, creationTime=1582899524879, depth=1, enabled=true, running=false]
+2020-02-28 21:18:45,013 [Loader:/chat] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/chat, listeners=1, connections=0]
+2020-02-28 21:18:45,013 [Loader:/chat] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
+2020-02-28 21:18:45,105 [Loader:/vod] INFO  org.red5.server.Context - Setting parent bean factory as core
+2020-02-28 21:18:45,106 [Loader:/vod] INFO  org.red5.server.scope.WebScope - Set server [Server@7f28f6a8map['/chat' -> 'default', '/live' -> 'default', '/' -> 'default']]
+2020-02-28 21:18:45,112 [Loader:/vod] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
+2020-02-28 21:18:45,112 [Loader:/vod] INFO  o.r.s.adapter.ApplicationAdapter - start
+2020-02-28 21:18:45,123 [pool-1-thread-1] INFO  o.r.net.websocket.WebSocketPlugin - Creating WebSocketScopeManager for org.red5.server.adapter.ApplicationAdapter@3188d846
+2020-02-28 21:18:45,123 [pool-1-thread-1] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.server.adapter.ApplicationAdapter@3188d846
+2020-02-28 21:18:45,123 [pool-1-thread-1] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=vod, path=/default, type=APPLICATION, autoStart=true, creationTime=1582899525106, depth=1, enabled=true, running=false]
+2020-02-28 21:18:45,124 [pool-1-thread-1] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/vod, listeners=0, connections=0]
+2020-02-28 21:18:45,124 [pool-1-thread-1] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
+2020-02-28 21:18:45,161 [Loader:/SOSample] INFO  org.red5.server.Context - Setting parent bean factory as core
+2020-02-28 21:18:45,162 [Loader:/SOSample] INFO  org.red5.server.scope.WebScope - Set server [Server@7f28f6a8map['/chat' -> 'default', '/live' -> 'default', '/vod' -> 'default', '/' -> 'default']]
+2020-02-28 21:18:45,163 [Loader:/SOSample] INFO  org.red5.server.Server - Add mapping global: default host:  context: SOSample
+2020-02-28 21:18:45,174 [pool-1-thread-2] INFO  o.r.net.websocket.WebSocketPlugin - Creating WebSocketScopeManager for org.red5.server.adapter.MultiThreadedApplicationAdapter@4eb3be91
+2020-02-28 21:18:45,174 [pool-1-thread-2] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.server.adapter.MultiThreadedApplicationAdapter@4eb3be91
+2020-02-28 21:18:45,174 [pool-1-thread-2] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=SOSample, path=/default, type=APPLICATION, autoStart=true, creationTime=1582899525162, depth=1, enabled=true, running=false]
+2020-02-28 21:18:45,174 [pool-1-thread-2] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/SOSample, listeners=0, connections=0]
+2020-02-28 21:18:45,174 [pool-1-thread-2] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
+2020-02-28 21:18:45,203 [Loader:/oflaDemo] INFO  org.red5.server.Context - Setting parent bean factory as core
+2020-02-28 21:18:45,209 [Loader:/oflaDemo] INFO  org.red5.server.scope.WebScope - Set server [Server@7f28f6a8map['/chat' -> 'default', '/live' -> 'default', '/SOSample' -> 'default', '/vod' -> 'default', '/' -> 'default']]
+2020-02-28 21:18:45,209 [Loader:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host:  context: oflaDemo
+2020-02-28 21:18:45,210 [Loader:/oflaDemo] INFO  o.r.s.adapter.ApplicationAdapter - start
+2020-02-28 21:18:45,230 [pool-1-thread-5] INFO  o.r.net.websocket.WebSocketPlugin - Creating WebSocketScopeManager for org.red5.demos.oflaDemo.Application@5222ecdb
+2020-02-28 21:18:45,230 [pool-1-thread-5] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.demos.oflaDemo.Application@5222ecdb
+2020-02-28 21:18:45,231 [pool-1-thread-5] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=oflaDemo, path=/default, type=APPLICATION, autoStart=true, creationTime=1582899525208, depth=1, enabled=true, running=true]
+2020-02-28 21:18:45,231 [pool-1-thread-5] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/oflaDemo, listeners=0, connections=0]
+2020-02-28 21:18:45,231 [pool-1-thread-5] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
+2020-02-28 21:18:49,123 [NioProcessor-2] INFO  org.red5.server.BaseConnection - sessionId :5YIBTL5IGX76V
+2020-02-28 21:18:49,329 [NioProcessor-3] INFO  org.red5.server.BaseConnection - sessionId :QICE1KUS6TNWS
+2020-02-28 21:18:49,563 [NioProcessor-4] INFO  org.red5.server.BaseConnection - sessionId :OUY8AQYJPUE6V
+2020-02-28 21:18:49,756 [NioProcessor-2] INFO  o.r.server.net.rtmp.BaseRTMPHandler - getHostname ++++++++++++++++++++= 1935
+2020-02-28 21:18:49,759 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - connect application
+2020-02-28 21:18:49,759 [NioProcessor-2] INFO  o.r.s.adapter.AbstractScopeAdapter - connect
+2020-02-28 21:18:49,759 [NioProcessor-2] INFO  o.r.s.adapter.AbstractScopeAdapter - canConnect: true
+2020-02-28 21:18:49,759 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - log w3c connect event
+2020-02-28 21:18:49,759 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:0
+2020-02-28 21:18:49,759 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - success :true
+2020-02-28 21:18:49,759 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - join
+2020-02-28 21:18:49,759 [NioProcessor-2] INFO  o.r.s.a.MultiThreadedApplicationAdapter - join
+2020-02-28 21:18:49,759 [NioProcessor-2] INFO  o.r.s.adapter.AbstractScopeAdapter - canJoin:true
+2020-02-28 21:18:49,759 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - ScopeUtils.isApp(scope)
+2020-02-28 21:18:49,772 [NioProcessor-2] INFO  o.r.s.net.rtmp.RTMPMinaConnection - registerJMX +++++++++++++++++++++++++++++++++++ 1935
+2020-02-28 21:18:49,929 [pool-1-thread-7] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:7ea0c1bd-e937-4f81-bc09-33ac0de6f9ee
+2020-02-28 21:18:50,027 [org%002ered5%002eio%002eamf%002e%004futput%002efield%0043ache.data] ERROR n.s.e.store.disk.DiskStorageFactory - Disk Write of class org.red5.server.net.rtmp.status.Status failed: 
+java.io.NotSerializableException: java.lang.reflect.Field
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1185)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:349)
+	at java.base/java.util.HashMap.internalWriteEntries(HashMap.java:1840)
+	at java.base/java.util.HashMap.writeObject(HashMap.java:1411)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1130)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1497)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1433)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1179)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1553)
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:442)
+	at net.sf.ehcache.Element.writeObject(Element.java:876)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1130)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1497)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1433)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1179)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:349)
+	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:403)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:385)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:477)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1071)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1055)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-02-28 21:18:50,030 [org%002ered5%002eio%002eamf%002e%004futput%002egetter%0043ache.data] ERROR n.s.e.store.disk.DiskStorageFactory - Disk Write of class org.red5.server.net.rtmp.status.Status failed: 
+java.io.NotSerializableException: java.lang.reflect.Method
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1185)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:349)
+	at java.base/java.util.HashMap.internalWriteEntries(HashMap.java:1840)
+	at java.base/java.util.HashMap.writeObject(HashMap.java:1411)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1130)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1497)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1433)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1179)
+	at java.base/java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1553)
+	at java.base/java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:442)
+	at net.sf.ehcache.Element.writeObject(Element.java:876)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1130)
+	at java.base/java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1497)
+	at java.base/java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1433)
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1179)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:349)
+	at net.sf.ehcache.util.MemoryEfficientByteArrayOutputStream.serialize(MemoryEfficientByteArrayOutputStream.java:97)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.serializeElement(DiskStorageFactory.java:403)
+	at net.sf.ehcache.store.disk.DiskStorageFactory.write(DiskStorageFactory.java:385)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$DiskWriteTask.call(DiskStorageFactory.java:477)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1071)
+	at net.sf.ehcache.store.disk.DiskStorageFactory$PersistentDiskWriteTask.call(DiskStorageFactory.java:1055)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-02-28 21:18:50,043 [pool-1-thread-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:7ea0c1bd-e937-4f81-bc09-33ac0de6f9ee x-name:red5.flv
+2020-02-28 21:18:50,109 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - disconnect
+2020-02-28 21:18:50,109 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:0
+2020-02-28 21:18:50,109 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - leave
+2020-02-28 21:18:50,118 [pool-1-thread-8] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3547 sc-bytes:21310 x-sname:7ea0c1bd-e937-4f81-bc09-33ac0de6f9ee
+2020-02-28 21:18:54,668 [RTMPConnectionScheduler-1] WARN  o.r.server.net.rtmp.RTMPConnection - Closing QICE1KUS6TNWS, due to long handshake. State: connect
+2020-02-28 21:18:54,671 [RTMPConnectionScheduler-1] INFO  o.r.s.net.rtmp.RTMPMinaConnection - Connection is closed: QICE1KUS6TNWS
+2020-02-28 21:19:00,409 [NioProcessor-5] INFO  org.red5.server.BaseConnection - sessionId :J1NBK9VRZUAUK
+2020-02-28 21:19:00,430 [NioProcessor-5] INFO  o.r.server.net.rtmp.BaseRTMPHandler - getHostname ++++++++++++++++++++= 1935
+2020-02-28 21:19:00,432 [NioProcessor-5] INFO  o.r.s.adapter.ApplicationAdapter - connect application
+2020-02-28 21:19:00,433 [NioProcessor-5] INFO  o.r.s.adapter.AbstractScopeAdapter - connect
+2020-02-28 21:19:00,433 [NioProcessor-5] INFO  o.r.s.adapter.AbstractScopeAdapter - canConnect: true
+2020-02-28 21:19:00,438 [NioProcessor-5] INFO  o.r.s.adapter.ApplicationAdapter - join
+2020-02-28 21:19:00,439 [NioProcessor-5] INFO  o.r.s.a.MultiThreadedApplicationAdapter - join
+2020-02-28 21:19:00,439 [NioProcessor-5] INFO  o.r.s.adapter.AbstractScopeAdapter - canJoin:true
+2020-02-28 21:19:00,443 [NioProcessor-5] INFO  o.r.s.net.rtmp.RTMPMinaConnection - registerJMX +++++++++++++++++++++++++++++++++++ 1935
+2020-02-28 21:19:00,551 [NioProcessor-5] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@6cc4eb2 new: org.red5.server.stream.ClientBroadcastStream@6cc4eb2

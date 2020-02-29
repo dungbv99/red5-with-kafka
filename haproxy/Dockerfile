@@ -11,7 +11,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
 
 
 RUN apt-get update
-RUN apt-get -y install rsyslog
+
 RUN apt-get update && apt-get install vim -y && apt-get install nmap -y
 
 

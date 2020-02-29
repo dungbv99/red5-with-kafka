@@ -1,4 +1,4 @@
-2020-02-26 15:10:56,529 [Loader:/chat] DEBUG org.red5.demos.chat.Application - start: Scope [name=chat, path=/default, type=APPLICATION, autoStart=true, creationTime=1582704656508, depth=1, enabled=true, running=false]
-2020-02-26 15:10:56,529 [Loader:/chat] TRACE org.red5.demos.chat.Application - Plugins: null
-2020-02-26 15:10:56,530 [Loader:/chat] INFO  org.red5.demos.chat.Application - Chat starting
-2020-02-26 15:10:56,549 [Loader:/chat] DEBUG org.red5.demos.chat.Application - appStart: Scope [name=chat, path=/default, type=APPLICATION, autoStart=true, creationTime=1582704656508, depth=1, enabled=true, running=false]
+2020-02-28 21:18:44,922 [Loader:/chat] DEBUG org.red5.demos.chat.Application - start: Scope [name=chat, path=/default, type=APPLICATION, autoStart=true, creationTime=1582899524879, depth=1, enabled=true, running=false]
+2020-02-28 21:18:44,922 [Loader:/chat] TRACE org.red5.demos.chat.Application - Plugins: null
+2020-02-28 21:18:44,923 [Loader:/chat] INFO  org.red5.demos.chat.Application - Chat starting
+2020-02-28 21:18:45,013 [Loader:/chat] DEBUG org.red5.demos.chat.Application - appStart: Scope [name=chat, path=/default, type=APPLICATION, autoStart=true, creationTime=1582899524879, depth=1, enabled=true, running=false]

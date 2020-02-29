@@ -9,6 +9,7 @@ services:
       - "5080:5080"
     expose:
       - "5080"
+    hostname: red5_1
     volumes:
     - ./red5_cluster/data_1:/data/db
 
@@ -20,6 +21,7 @@ services:
       - "5081:5080"
     expose:
       - "5080"
+    hostname: red5_2 
     volumes:
     - ./red5_cluster/data_2:/data/db
 
@@ -32,6 +34,7 @@ services:
       - "5082:5080"
     expose:
       - "5080"
+    hostname: red5_3 
     volumes:
     - ./red5_cluster/data_3:/data/db
 
@@ -39,6 +42,8 @@ services:
 
 
   haproxy_img:
+    container_name: haproxy
+    hostname: haproxy
     build: ./haproxy
     ports:
       - "80:80"
